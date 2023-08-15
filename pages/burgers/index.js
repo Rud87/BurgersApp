@@ -3,18 +3,27 @@ import Image from 'next/image';
 import styles from '../../styles/Burgers.module.css';
 
 export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:5000/items');
-  const data = await res.json();
+  try {
+    const res = await fetch(' http://localhost:5000/items');
+    const text = await res.text(); 
+    console.log('Raw Response:', text);
 
-  return {
-    props: { burgers: data }
+    const data = JSON.parse(text);
+    return {
+      props: { burgers: data }
+    };
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return {
+      props: { burgers: [] } 
+    };
   }
-}
+};
 
 const Burgers = ({ burgers}) => {
   return (
     <div>
-      <h1>Наши Бургеры</h1>
+      <h1>Our Burgers</h1>
       {burgers.map(burger => (
         <Link href={`/burgers/${burger.id}`} key={burger.id}>
           <a className={styles.burgerCard}>

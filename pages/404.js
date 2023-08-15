@@ -13,9 +13,9 @@ const NotFoundPage = () => {
 
   return (
     <div className="not-found">
-      <h1>Ой...</h1>
-      <h2>Такой страницы здесь нет!</h2>
-      <p>Перехожу на <Link href="/"><a>главную страницу</a></Link> через 3 секунды...</p>
+      <h1>Oh...</h1>
+      <h2>There is no such page!</h2>
+      <p>Going to <Link href="/"><a>homepage</a></Link> after 3 seconds...</p>
     </div>
   );
 }

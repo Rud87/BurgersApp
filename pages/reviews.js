@@ -4,11 +4,11 @@ const ReviewsPage = ({ reviews }) => {
   return (
     <>
       <Head>
-        <title>Отзывы наших клиентов</title>
-        <meta name="title" content="Все отзывы"/>
+        <title>Feedback from our clients</title>
+        <meta name="title" content="All reviews"/>
       </Head>
       <div>
-        <h1>Отзывы клиентов</h1>
+        <h1>Customer Reviews</h1>
         <div className='reviews'>
           { !!reviews.length && reviews.map(res => {
             return (

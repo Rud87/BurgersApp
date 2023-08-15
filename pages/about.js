@@ -4,14 +4,14 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>Жирные Бургеры | О Нас</title>
-        <meta name="title" content="Все о жирных бургерах"/>
+        <title>Fat Burgers</title>
+        <meta name="title" content="All about fatty burgers"/>
       </Head>
       <div>
-        <h1>О нас</h1>
-        <p>Жирные бургеры - это старые добрые бургеры по классической рецептуре, нужных размеров и за приемлемую цену.</p>
-        <p>Готовят их на американский, мексиканский и итальянский манер, не жалея ни соуса, ни начинки.</p>
-        <p>Для тех, кто изрядно проголодался, есть необъятный «Самый жирный бургер» с пятью говяжьими котлетами, кукурузными чипсами и сыром.</p>
+        <h1>About us</h1>
+        <p>Fat burgers are good old burgers with a classic recipe, the right size and at a reasonable price.</p>
+        <p>They are prepared in the American, Mexican and Italian manners, sparing neither the sauce nor the filling.</p>
+        <p>For those who are pretty hungry, there is an immense "Fattest Burger" with five beef patties, corn chips and cheese.</p>
       </div>
     </>
   );

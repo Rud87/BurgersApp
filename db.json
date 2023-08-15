@@ -1,25 +1,25 @@
 {
   "items": [
     {
-      "name": "Чизбургер",
+      "name": "Cheeseburger",
       "image": "/images/cheese.jpg",
       "desc":
-        "Классический бургер с бифштексом из 100% говядины с маринованными огурчиками и свежей пшеничной булочкой.",
-      "price": 110,
+        "Classic 100% beef steak burger with pickled cucumbers and fresh wheat bun.",
+      "price": 4,
       "id": "001"
     },
     {
-      "name": "Чикен Бургер",
+      "name": "Chicken Burger",
       "image": "/images/chicken.jpg",
-      "desc": "Куриный бургер с добавлением расплавленного сыра, соуса Барбекю и листового салата.",
-      "price": 150,
+      "desc": "Chicken burger topped with melted cheese, BBQ sauce and lettuce.",
+      "price": 5,
       "id": "002"
     },
     {
-      "name": "Двойной Гамбургер",
+      "name": "Double Hamburger",
       "image": "/images/double.jpg",
-      "desc": "Двойной гамбургер с бифштексом из 100% говядины и расплавленным сыром Чеддер и пряным соусом.",
-      "price": 200,
+      "desc": "Double hamburger with 100% beef steak and melted Cheddar cheese and spicy sauce.",
+      "price": 7,
       "id": "003"
     }
   ]
